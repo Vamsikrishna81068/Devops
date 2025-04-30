@@ -1,0 +1,23 @@
+## 🧠 Process Management
+
+Managing processes is essential for system monitoring, performance tuning, and troubleshooting in a Linux environment.
+
+---
+
+### 📋 Common Commands
+
+| Command               | Description                              | Example                              |
+|------------------------|------------------------------------------|--------------------------------------|
+| `ps aux`              | Show all running processes                | `ps aux | grep nginx`                |
+| `top`                 | Real-time process viewer                  | `top`                                |
+| `htop`                | Enhanced version of `top` (requires install) | `htop`                           |
+| `kill <PID>`          | Terminate a process by its ID             | `kill 1234`                          |
+| `kill -9 <PID>`       | Force kill a process                      | `kill -9 1234`                       |
+| `jobs`                | List background jobs                      | `jobs`                               |
+| `fg`                  | Bring background job to foreground        | `fg`                                 |
+| `bg`                  | Resume a suspended job in background      | `bg`                                 |
+| `nice` / `renice`     | Set/change process priority               | `nice -n 10 ./script.sh`             |
+
+---
+
+
