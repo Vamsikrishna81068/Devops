@@ -37,7 +37,7 @@ Welcome to the **DevOps Learning Roadmap**! This repository is a curated, hands-
 - File Permissions & Ownership
 - Process Management
 - Networking Commands
-- Shell Customization & Aliases
+- Storage Commands
 
 ## ✅ 3. Networking Basics
 - OSI Model
